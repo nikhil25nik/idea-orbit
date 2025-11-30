@@ -2,7 +2,7 @@ import logo from "@/assets/images/IdeaOrbit_logos.png"
 import { Button } from "./ui/button"
 import { Link, useNavigate } from "react-router-dom"
 import { FiLogIn } from "react-icons/fi";
-import Searchbar from "./SearchBar.jsx";
+import Searchbar from "../components/Searchbar.jsx";
 import { RouteAddBlog, RouteIndex, RouteProfile, RouteSignIn } from "@/helper/RouteName";
 import { useDispatch, useSelector } from "react-redux";
 import {
