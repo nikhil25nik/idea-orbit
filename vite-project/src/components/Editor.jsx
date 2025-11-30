@@ -2,7 +2,7 @@
  * This configuration was generated using the CKEditor 5 Builder. You can modify it anytime using this link:
  * https://ckeditor.com/ckeditor-5/builder/?redirect=portal#installation/NoNgNARATAdAHDKFIEYDsAWKI0E4DMADFLnCiOSBiigKwpYa661S2GEZzZRpy1wMyCAFMAdskJhgKMLPly5AXUgAzACZoAhgCM0tCEqA
  */
-import "../app.css"
+import "../App.css"
 
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { CKEditor } from '@ckeditor/ckeditor5-react';
