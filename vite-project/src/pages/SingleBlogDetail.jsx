@@ -20,7 +20,7 @@ export default function SingleBlogDetail(){
         credentials:"include"
     },[blog,category])
 
-    console.log(data)
+  
     if(loading) return <Loading/>
     return(
         <div className="md:flex-nowrap flex-wrap flex justify-between gap-20">

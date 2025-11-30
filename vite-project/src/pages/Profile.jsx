@@ -78,9 +78,7 @@ export default function Profile() {
 
       const formData = new FormData()
 
-       if(!file){
-        showToast("error","Featured Image is required")
-      }
+    
       if(file){
          formData.append("file",file)
          showToast("error","Featured Image is required")

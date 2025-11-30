@@ -112,7 +112,7 @@ export default function AddBlog() {
     }catch(err){
       showToast("error",err.message)
     }finally{
-      isSubmitting(false)
+      setIsSubmitting(false)
     }
   }
 

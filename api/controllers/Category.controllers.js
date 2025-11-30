@@ -5,13 +5,13 @@ export const addCategory = async(req,res,next)=>{
     try{
 
         const {name,slug} = req.body;
-        console.log(name)
+        
 
         let category = new Category({
             name,slug
         })
 
-        console.log(category)
+        
         await category.save()
 
         res.status(200).json({

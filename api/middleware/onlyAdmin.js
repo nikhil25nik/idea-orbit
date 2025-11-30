@@ -3,7 +3,7 @@ import jwt from "jsonwebtoken"
 export const onlyAdmin = async (req, res, next) => {
     try {
         const token = req.cookies.access_token;
-console.log("TOKEN FROM COOKIE:", token);
+
         if (!token) {
             const error = new Error("Unauthorized");
             error.statusCode = 403;
@@ -11,7 +11,7 @@ console.log("TOKEN FROM COOKIE:", token);
         }
 
         const decodeToken = jwt.verify(token, process.env.JWT_SECRET);
-        console.log("decode"+decodeToken.role)
+        
 
         if (decodeToken.role !== "admin") {
             const error = new Error("Only admin can access this route");
