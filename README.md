@@ -59,7 +59,7 @@ Build a real-world blog application
 ## Author
 
 ### Nikhil Kurane
-MCA Student | MERN Stack Developer
+MCA Student | Web Developer
 
 GitHub: https://github.com/nikhil25nik
 
