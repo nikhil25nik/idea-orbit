@@ -65,5 +65,5 @@ GitHub: https://github.com/nikhil25nik
 
 LinkedIn: https://www.linkedin.com/in/nikhil-kurane25/
 
-This Project Live Link : https://nexacraft-ho1x.vercel.app/
+This Project Live Link : https://idea-orbit-auyb.vercel.app/
 
